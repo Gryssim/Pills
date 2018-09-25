@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Pills</string>
+    <string name="add_Pill"> Add New Rx</string>
+    <string name="edit_Pill"> edit New Rx</string>
 </resources>
