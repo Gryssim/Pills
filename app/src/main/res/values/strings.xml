@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">Pills</string>
-    <string name="add_Pill"> Add New Rx</string>
-    <string name="edit_Pill"> edit New Rx</string>
+    <string name="add_Pill"> Add New Prescription</string>
+    <string name="edit_Pill"> Edit Existing Prescription</string>
+    <string name="Title_main"> Super Pill Program Title!</string>
+    <string name="AddRx_title"> Add New Prescription</string>
+    <string name="edit_rx">Edit Existing Prescription</string>
 </resources>
