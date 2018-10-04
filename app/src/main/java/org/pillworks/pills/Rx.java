@@ -6,7 +6,7 @@ import java.sql.Time;
 
 public class Rx {
     private Image pill_image;
-    private String rx_name;
+    public static String rx_name;
     private short pill_dosage;
     private String dosage_instructions;
     private Time next_pill;

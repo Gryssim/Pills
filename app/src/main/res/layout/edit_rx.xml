@@ -8,4 +8,11 @@
     tools:context=".editRx"
     tools:showIn="@layout/activity_edit_rx">
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/editRxStr"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="216dp" />
 </android.support.constraint.ConstraintLayout>

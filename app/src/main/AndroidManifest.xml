@@ -17,8 +17,8 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".addNewRx">
-            android:label="add_rx"
+        <activity android:name=".AddNewRx"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="org.pillworks.pills.addNewRx" />
 
@@ -28,7 +28,6 @@
 
         <activity
             android:name=".editRx"
-            android:label="edit_rx"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="org.pillworks.pills.editRx" />

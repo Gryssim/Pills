@@ -5,4 +5,10 @@
     <string name="Title_main"> Super Pill Program Title!</string>
     <string name="AddRx_title"> Add New Prescription</string>
     <string name="edit_rx">Edit Existing Prescription</string>
+    <string name="addRxStr">welcome to the add Rx screen</string>
+    <string name="editRxStr">welcome to the edit Rx screen</string>
+    <string name="editRxNameLabel">Please enter the <b>Prescription</b> name below</string>
+    <string name="rxNameTempLabel">Prescription Name</string>
+    <string name="submit">Submit</string>
+    <string name="errorAddRx">Please enter the <b>Prescription</b> name in the <b>RED</b> box above</string>
 </resources>
