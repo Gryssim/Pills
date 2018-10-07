@@ -51,8 +51,28 @@
         android:background="#CCCCCC"
         android:text="@string/editRxNameLabel"
         android:textSize="18sp"
-        android:visibility="visible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+    //for Camera
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/takePictureButton"/>
+    //for Camera
 
+    <Button
+        android:id="@+id/takePictureButton"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="225dp"
+        android:onClick="takePicture"
+        android:text="Take a picture!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/submitNameButton" />
 </android.support.constraint.ConstraintLayout>
