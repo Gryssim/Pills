@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
                 // Start NewActivity.class
                 Intent myIntent = new Intent(MainActivity.this,
-                        org.pillworks.pills.editRx.class);
+                        org.pillworks.pills.EditRx.class);
                 startActivity(myIntent);
             }
         });
